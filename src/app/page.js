@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "7/6 dars",
-    description: "Store in Redux",
+    description: "Store in Ant",
     githubLink: "https://github.com/Abdullohn001/Store-in-Redux",
     vercelLink: "https://store-in-redux.vercel.app/",
   },
