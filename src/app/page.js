@@ -25,6 +25,12 @@ const projects = [
     githubLink: "https://github.com/Abdullohn001/Store-in-Redux",
     vercelLink: "https://store-in-redux.vercel.app/",
   },
+  {
+    title: "7/7 dars",
+    description: "Store in Redux",
+    githubLink: "https://github.com/Abdullohn001/Store-in-Redux",
+    vercelLink: "https://store-in-redux.vercel.app/",
+  },
 ];
 
 export default function Home() {
