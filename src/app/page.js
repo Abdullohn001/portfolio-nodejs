@@ -65,13 +65,13 @@ export default function Home() {
         {projects &&
           projects.map((prod) => {
             return (
-              <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <div key={prod.title} className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                 <h2 className={`mb-3 text-2xl font-semibold`}>
                   {prod.title}{" "}
                   <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                     -&gt;
                   </span>
-                  <h4 className="text-xl ">{prod.description}</h4>
+                  <p className="text-xl">{prod.description}</p>
                 </h2>
 
                 <div className="flex gap-2 flex-col">
