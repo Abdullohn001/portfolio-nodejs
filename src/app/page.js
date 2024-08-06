@@ -2,12 +2,6 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "7/2 dars ",
-    description: "Dessert App",
-    githubLink: "https://github.com/Abdullohn001/dessert-app",
-    vercelLink: "https://github.com/Abdullohn001/dessert-app",
-  },
-  {
     title: "7/3 dars",
     description: "Card",
     githubLink: "https://github.com/Abdullohn001/Calculate-card",
