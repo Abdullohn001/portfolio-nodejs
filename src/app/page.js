@@ -35,7 +35,7 @@ export default function Home() {
           Get started by &nbsp;
           <code className="font-mono font-bold">src/app/page.js</code>
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t  via-white from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -65,7 +65,10 @@ export default function Home() {
         {projects &&
           projects.map((prod) => {
             return (
-              <div key={prod.title} className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+              <div
+                key={prod.title}
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              >
                 <h2 className={`mb-3 text-2xl font-semibold`}>
                   {prod.title}{" "}
                   <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -77,6 +80,7 @@ export default function Home() {
                 <div className="flex gap-2 flex-col">
                   <a
                     href={prod.githubLink}
+                    target="_blank"
                     className="cursor-pointer flex items-center m-0 max-w-[30ch] text-sm opacity-50 hover:opacity-100"
                   >
                     <img
@@ -87,6 +91,7 @@ export default function Home() {
                     GitHub Link
                   </a>
                   <a
+                    target="_blank"
                     href={prod.vercelLink}
                     className="cursor-pointer flex items-center m-0 max-w-[30ch] text-sm opacity-50 hover:opacity-100"
                   >
