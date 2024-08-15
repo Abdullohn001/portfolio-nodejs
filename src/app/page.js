@@ -14,6 +14,12 @@ const projects = [
     vercelLink: "https://login-with-redux-one.vercel.app/",
   },
   {
+    title: "7/5 dars",
+    description: "Frontend quiz app",
+    githubLink: "https://github.com/Abdullohn001/quiz-app",
+    vercelLink: "https://quiz-app-seven-tau.vercel.app/",
+  },
+  {
     title: "7/6 dars",
     description: "Store in Ant",
     githubLink: "https://github.com/Abdullohn001/Store-in-Redux",
