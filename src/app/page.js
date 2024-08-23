@@ -37,6 +37,12 @@ const projects = [
     githubLink: "https://github.com/Abdullohn001/addbooks",
     vercelLink: "https://addbooks.vercel.app/",
   },
+  {
+    title: "8/2 dars",
+    description: "Mortgage Calculator",
+    githubLink: "https://github.com/Abdullohn001/Calculate--",
+    vercelLink: "https://calculate-swart.vercel.app/",
+  },
 ];
 
 export default function Home() {
